@@ -1,0 +1,15 @@
+# Local visual QA artifacts
+/desktop-*.png
+/mobile-*.png
+/design-review.png
+/qa.mjs
+
+# Internal project documents (kept locally, not published)
+/*.md
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+

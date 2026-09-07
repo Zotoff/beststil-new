@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Слот фотографии до груминга</title>
+  <desc id="desc">Прототипный заполнитель, не фотография клиента BestСтиль.</desc>
+  <rect width="1200" height="800" fill="#d8d4c7"/>
+  <path d="M365 515c-36-91-18-211 52-274 54-49 138-66 217-37 86 32 142 121 135 215-4 47-21 84-50 118" fill="none" stroke="#252a27" stroke-width="18" stroke-linecap="round"/>
+  <path d="M430 260 369 163l125 42M686 215l117-61-55 120M458 405c45 34 133 37 185 2M535 356h2M653 354h2" fill="none" stroke="#252a27" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="72" y="92" fill="#252a27" font-family="Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="3">ПРОТОТИПНЫЙ СЛОТ</text>
+  <text x="72" y="700" fill="#252a27" font-family="Arial, sans-serif" font-size="76" font-weight="800">ФОТО ДО</text>
+  <text x="72" y="748" fill="#5d625e" font-family="Arial, sans-serif" font-size="28">нужен исходный кадр того же питомца</text>
+</svg>
+

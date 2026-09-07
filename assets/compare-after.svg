@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Слот фотографии после груминга</title>
+  <desc id="desc">Прототипный заполнитель, не фотография клиента BestСтиль.</desc>
+  <rect width="1200" height="800" fill="#b9ff5f"/>
+  <path d="M378 520c-26-82-4-188 61-247 48-44 121-61 191-40 82 25 140 105 140 195 0 44-14 83-42 117" fill="none" stroke="#101511" stroke-width="18" stroke-linecap="round"/>
+  <path d="M447 275 391 184l113 43M680 228l105-53-49 108M468 412c44 31 125 33 174 1M542 364h2M647 362h2" fill="none" stroke="#101511" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m863 168 14 31 31 14-31 14-14 31-14-31-31-14 31-14zM935 273l9 20 20 9-20 9-9 20-9-20-20-9 20-9z" fill="#101511"/>
+  <text x="72" y="92" fill="#101511" font-family="Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="3">ПРОТОТИПНЫЙ СЛОТ</text>
+  <text x="72" y="700" fill="#101511" font-family="Arial, sans-serif" font-size="76" font-weight="800">ФОТО ПОСЛЕ</text>
+  <text x="72" y="748" fill="#3c5629" font-family="Arial, sans-serif" font-size="28">нужен итоговый кадр в том же ракурсе</text>
+</svg>

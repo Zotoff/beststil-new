@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BestСтиль — груминг собак и кошек на Окской в Москве</title>
+  <meta name="description" content="Груминг собак и кошек в салоне BestСтиль на ул. Окская, 3к1. Ежедневно с 10:00 до 22:00. Работы, актуальные цены и запись по телефону.">
+  <meta name="theme-color" content="#101511">
+  <script>
+    (() => {
+      let savedTheme;
+      try { savedTheme = localStorage.getItem('beststil-theme'); } catch {}
+      const preferredTheme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.dataset.theme = savedTheme === 'dark' || savedTheme === 'light' ? savedTheme : preferredTheme;
+    })();
+  </script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержанию</a>
+
+  <header class="site-header" data-header>
+    <a class="brand" href="#top" aria-label="BestСтиль — на главную">
+      <span class="brand-mark" aria-hidden="true">БС</span>
+      <span>BestСтиль</span>
+    </a>
+
+    <nav class="site-nav" id="site-nav" aria-label="Основная навигация">
+      <a href="#services">Услуги</a>
+      <a href="#results">До / после</a>
+      <a href="#prices">Цены</a>
+      <a href="#contacts">Адрес</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="theme-toggle" type="button" aria-label="Включить тёмную тему" aria-pressed="false" data-theme-toggle>
+        <span class="theme-icon theme-icon-sun" aria-hidden="true">☀</span>
+        <span class="theme-icon theme-icon-moon" aria-hidden="true">●</span>
+      </button>
+      <a class="header-phone" href="tel:+79257238503">8 (925) 723-85-03</a>
+      <a class="button button-accent header-book" href="tel:+79257238503">Записаться</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Открыть меню">
+        <span aria-hidden="true"></span><span aria-hidden="true"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <img class="hero-image" src="assets/hero-groomer-pexels.jpg" alt="Грумер расчёсывает йоркширского терьера на столе в салоне">
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="hero-place">Москва · ул. Окская, 3к1</p>
+        <h1 id="hero-title">Груминг собак<br> и кошек<br> на Окской</h1>
+        <div class="hero-bottom">
+          <p>Стрижки и уход для собак и кошек разных пород и размеров. Посмотрите работы, выберите услугу и заранее оцените стоимость.</p>
+          <div class="hero-actions">
+            <a class="button button-accent button-large" href="tel:+79257238503">Записаться на груминг</a>
+            <a class="button button-ghost button-large" href="#results">Смотреть работы</a>
+          </div>
+        </div>
+      </div>
+      <p class="photo-credit">Временное hero-фото: Gustavo Fring / Pexels. Не клиент BestСтиль.</p>
+    </section>
+
+    <div class="fact-rail" aria-label="Коротко о салоне">
+      <p><strong>С 2014 года</strong><span>занимаемся грумингом</span></p>
+      <p><strong>Dogs + cats</strong><span>разные породы и размеры</span></p>
+      <p><strong>10:00—22:00</strong><span>ежедневно, без выходных</span></p>
+      <a href="https://beststil.ru/price/" target="_blank" rel="noopener">Открыть прайс ↗</a>
+    </div>
+
+    <section class="services section" id="services" aria-labelledby="services-title">
+      <div class="section-title-row">
+        <p class="eyebrow">Направления</p>
+        <h2 id="services-title">Стрижка, вычёсывание или тримминг</h2>
+        <p>Выберите задачу питомца — ниже покажем состав комплекса, цены и реальные работы салона.</p>
+      </div>
+
+      <div class="service-mosaic">
+        <a class="service-tile service-dogs" href="https://beststil.ru/price/" target="_blank" rel="noopener">
+          <img src="assets/work-2.png" alt="Померанский шпиц после груминга в BestСтиль">
+          <span class="service-index">01</span>
+          <span class="service-copy"><strong>Стрижка собак</strong><small>Когда нужен законченный образ и полный комплекс ухода</small></span>
+          <span class="service-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="service-tile service-cats" href="https://beststil.ru/price/" target="_blank" rel="noopener">
+          <img src="assets/gallery-cats.jpg" alt="Кошка — пример направления работ BestСтиль">
+          <span class="service-index">02</span>
+          <span class="service-copy"><strong>Уход за кошками</strong><small>Вычёсывание, мытьё или стрижка — по состоянию шерсти</small></span>
+          <span class="service-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="service-tile service-trim" href="https://beststil.ru/gallery/trimming/" target="_blank" rel="noopener">
+          <img src="assets/gallery-small.png" alt="Собака — пример работ по породному уходу BestСтиль">
+          <span class="service-index">03</span>
+          <span class="service-copy"><strong>Тримминг и породный уход</strong><small>Для жёсткой шерсти и формы, заданной породой</small></span>
+          <span class="service-arrow" aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="included section" aria-labelledby="included-title">
+      <div class="included-visual">
+        <img src="assets/work-1.png" alt="Йоркширский терьер после груминга в BestСтиль" loading="lazy">
+      </div>
+      <div class="included-content">
+        <p class="eyebrow">Комплекс для собак</p>
+        <h2 id="included-title">Что входит в комплекс</h2>
+        <ol class="included-list">
+          <li><span>01</span><strong>Мытьё</strong></li>
+          <li><span>02</span><strong>Когти</strong></li>
+          <li><span>03</span><strong>Уши</strong></li>
+          <li><span>04</span><strong>Стрижка</strong></li>
+        </ol>
+        <p class="included-footnote">Состав опубликован для комплекса декоративных и средних пород. Для своей породы уточните вариант при записи.</p>
+      </div>
+    </section>
+
+    <section class="prices section" id="prices" aria-labelledby="prices-title">
+      <div class="price-intro">
+        <p class="eyebrow">Опубликованные цены</p>
+        <h2 id="prices-title">Сколько стоит груминг</h2>
+        <p>Диапазоны взяты из действующего прайса BestСтиль. Итог зависит от размера и состояния шерсти.</p>
+      </div>
+
+      <div class="price-switcher">
+        <div class="price-tabs" role="tablist" aria-label="Цены для собак и кошек">
+          <button type="button" role="tab" aria-selected="true" aria-controls="price-dogs" id="price-tab-dogs" tabindex="0" data-price-tab>Собаки</button>
+          <button type="button" role="tab" aria-selected="false" aria-controls="price-cats" id="price-tab-cats" tabindex="-1" data-price-tab>Кошки</button>
+        </div>
+
+        <div class="price-panel" id="price-dogs" role="tabpanel" aria-labelledby="price-tab-dogs" data-price-panel>
+          <div><span>Йорк / бивер</span><strong>2 500—3 000 ₽</strong></div>
+          <div><span>Шпиц померанский до 3 кг</span><strong>3 000—3 500 ₽</strong></div>
+          <div><span>Лабрадор</span><strong>5 000—6 000 ₽</strong></div>
+        </div>
+        <div class="price-panel" id="price-cats" role="tabpanel" aria-labelledby="price-tab-cats" data-price-panel hidden>
+          <div><span>Стрижка кошки</span><strong>2 800—3 500 ₽</strong></div>
+          <div><span>Мытьё + вычёсывание</span><strong>3 500—4 500 ₽</strong></div>
+          <div><span>Комплекс мейн-куна</span><strong>3 500—4 500 ₽</strong></div>
+        </div>
+        <p class="price-warning">Для запущенного состояния в опубликованном прайсе указана доплата 50%.</p>
+        <a class="button button-ink" href="https://beststil.ru/price/" target="_blank" rel="noopener">Весь прайс ↗</a>
+      </div>
+    </section>
+
+    <section class="comparison-section section" id="results" aria-labelledby="results-title">
+      <div class="comparison-heading">
+        <p class="eyebrow">До / после</p>
+        <h2 id="results-title">Один питомец.<br> Один ракурс.<br> Видимая разница.</h2>
+        <p>На действующем сайте не удалось подтвердить парные кадры одного питомца. Слайдер готов; сейчас в нём честно обозначены места для фотографий.</p>
+      </div>
+
+      <div class="comparison-wrap">
+        <div class="comparison" style="--position: 52%" data-comparison>
+          <img class="comparison-before" src="assets/compare-before.svg" alt="Прототипный слот фотографии питомца до груминга">
+          <div class="comparison-after" aria-hidden="true"><img src="assets/compare-after.svg" alt=""></div>
+          <div class="comparison-divider" aria-hidden="true"><span>↔</span></div>
+          <input class="comparison-range" type="range" min="0" max="100" value="52" aria-label="Сравнить фотографию до и после" data-comparison-range>
+        </div>
+        <div class="comparison-note"><span>Макет механики</span><p>Заменить оба слота подтверждённой парой BestСтиль перед публикацией.</p></div>
+      </div>
+    </section>
+
+
+    <section class="salon section" id="salon" aria-labelledby="salon-title">
+      <div class="salon-heading">
+        <p class="eyebrow">BestСтиль изнутри</p>
+        <h2 id="salon-title">Посмотрите, куда приводите питомца</h2>
+        <div class="salon-links">
+          <a href="https://beststil.ru/o-salone/" target="_blank" rel="noopener">О салоне ↗</a>
+          <a href="https://beststil.ru/nashi-sertifikaty/" target="_blank" rel="noopener">Все сертификаты ↗</a>
+          <a href="https://beststil.ru/reviews/" target="_blank" rel="noopener">Отзывы ↗</a>
+        </div>
+      </div>
+      <figure class="salon-photo salon-main">
+        <img src="assets/hero-salon.jpeg" alt="Интерьер салона BestСтиль на фотографии с действующего сайта" loading="lazy">
+        <figcaption>Интерьер салона</figcaption>
+      </figure>
+      <figure class="salon-photo salon-certificate">
+        <img src="assets/certificate-1.jpg" alt="Сертификат, опубликованный на сайте BestСтиль" loading="lazy">
+        <figcaption>Документы с сайта</figcaption>
+      </figure>
+      <figure class="salon-photo salon-work">
+        <img src="assets/work-2.png" alt="Работа BestСтиль — померанский шпиц" loading="lazy">
+        <figcaption>Работы салона</figcaption>
+      </figure>
+      <p class="salon-disclaimer">Фотографии и документы взяты с действующего сайта. Их актуальность и принадлежность конкретным мастерам нужно подтвердить перед production-публикацией.</p>
+    </section>
+
+    <section class="faq section" id="faq" aria-labelledby="faq-title">
+      <div class="faq-heading">
+        <p class="eyebrow">Перед записью</p>
+        <h2 id="faq-title">Что обычно уточняют</h2>
+        <p>Короткие ответы по опубликованным данным салона. Особенности конкретного питомца лучше назвать администратору при записи.</p>
+      </div>
+      <div class="faq-list">
+        <details open>
+          <summary><span>01</span>Как понять, какая услуга нужна?</summary>
+          <p>Назовите породу, примерный вес, состояние шерсти и желаемый результат. Для стрижки, вычёсывания и тримминга состав процедур различается.</p>
+        </details>
+        <details>
+          <summary><span>02</span>Что входит в комплекс для собак?</summary>
+          <p>В опубликованном прайсе для декоративных и средних пород указаны мытьё, обработка когтей и ушей, а также стрижка.</p>
+        </details>
+        <details>
+          <summary><span>03</span>От чего зависит итоговая цена?</summary>
+          <p>От породы, размера и состояния шерсти. Для запущенного состояния в действующем прайсе указана доплата 50%.</p>
+        </details>
+        <details>
+          <summary><span>04</span>Можно записать кошку или крупную собаку?</summary>
+          <p>Да. На действующем сайте BestСтиль заявлена работа с кошками и собаками разных размеров, включая крупные породы.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="location" id="contacts" aria-labelledby="location-title">
+      <div class="location-copy">
+        <p class="eyebrow">Где мы находимся</p>
+        <h2 id="location-title">Окская,<br> 3к1</h2>
+        <p class="location-lead">Салон принимает ежедневно с 10:00 до 22:00. Перед выездом позвоните и согласуйте время.</p>
+        <dl class="location-data">
+          <div><dt>Адрес</dt><dd>Москва, ул. Окская, д. 3к1</dd></div>
+          <div><dt>Режим</dt><dd>Ежедневно, 10:00—22:00</dd></div>
+          <div><dt>Запись</dt><dd><a href="tel:+79257238503">8 (925) 723-85-03</a></dd></div>
+        </dl>
+        <div class="location-actions">
+          <a class="button button-accent button-large" href="https://yandex.ru/maps/org/27223415569/" target="_blank" rel="noopener">Открыть в Яндекс Картах ↗</a>
+          <a class="location-call" href="tel:+79257238503">Позвонить</a>
+        </div>
+      </div>
+      <div class="location-map">
+        <div class="map-visual" aria-hidden="true"><span class="map-area">Рязанский район · Москва</span><span class="map-pin"><b>БС</b></span></div>
+        <iframe src="https://yandex.ru/map-widget/v1/?oid=27223415569&amp;z=16" title="BestСтиль на карте Москвы, улица Окская, 3к1" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="map-caption"><strong>BestСтиль</strong><span>ул. Окская, д. 3к1</span></div>
+      </div>
+    </section>
+    <section class="booking-band" aria-labelledby="booking-title">
+      <div>
+        <p class="eyebrow">Запись на Окскую</p>
+        <h2 id="booking-title">Обсудим питомца<br> до визита</h2>
+      </div>
+      <div class="booking-contact">
+        <a class="booking-phone" href="tel:+79257238503">8 (925) 723-85-03</a>
+        <p>Москва, ул. Окская, д. 3к1<br> Ежедневно, 10:00—22:00</p>
+        <a class="button button-accent button-large" href="tel:+79257238503">Позвонить и записаться</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-top">
+      <a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true">БС</span><span>BestСтиль</span></a>
+      <nav aria-label="Навигация в подвале">
+        <a href="#services">Услуги</a><a href="#prices">Цены</a><a href="#results">Работы</a><a href="#faq">Вопросы</a><a href="#contacts">Адрес</a>
+      </nav>
+      <a class="footer-call" href="tel:+79257238503">Записаться ↗</a>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span data-current-year></span> BestСтиль</p>
+      <p>Москва, ул. Окская, д. 3к1 · ежедневно 10:00—22:00</p>
+      <p><a href="mailto:amosova2018@gmail.com">amosova2018@gmail.com</a></p>
+      <p class="footer-secondary">Обучение и вакансии: <a href="tel:+79660031300">8 (966) 003-13-00</a></p>
+    </div>
+  </footer>
+
+  <a class="mobile-booking" href="tel:+79257238503" data-mobile-booking>Записаться</a>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
